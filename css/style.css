@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Share+Tech&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F2F6FF;
+}
+
+.title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+}
+
+.paragraf {
+    color: #e0e0e0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.top {
+    background-image: url(../IMAGES/FundoIndex.png);
+    background-size: 100% 85vh;
+    width: 100%;
+    height: 85vh;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+header .Logo {
+    user-select:none;
+    margin-right: 5%;
+}
+
+.middle {
+    background-image: url(../IMAGES/Background.png);
+    background-size: 100% 300vh;
+    width: 100%;
+    min-height: 350vh;
+    max-height: 500vh;
+}
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-flow: column;
+    background-image: url(../IMAGES/backgroundBottom.png);
+    background-size: 100% 220vh;
+    width: 100%;
+    height: 220vh;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-image: url(../IMAGES/FundoFooter.png);
+    background-size: 120% 75vh;
+    background-position: -20vh;
+    width: 100%;
+    height: 75vh;
+}
+
+header .navList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 5%;
+}
+
+header .navList a {
+    user-select:none;
+    transition: 0.3s;
+    color: #FFF;
+    font-family: Share Tech;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.hero {
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.hero .boxText {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 40vh;
+}
+
+.hero img {
+    margin-left: -5vw;
+}
+
+.hero .title {
+    margin-bottom: 3vh;
+    width: 50vw;
+}
+
+.hero .button {
+    user-select:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    width: 40%;
+    border-radius: 50px;
+    border: 2px solid #5981DE;
+    transition: 0.3s;
+    background: rgba(203, 255, 246, 0.30);
+    margin-top: 20px;
+
+}
+
+.hero .button a {
+    color: #FFF;
+    font-family: Share Tech;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.middle section {
+    display: flex;
+}
+
+.middle .Title {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-top: 1vh;
+    margin-bottom: 8vh;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.middle .Title .title {
+    width: 60%;
+    color: #000;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.middle .container .title {
+    color: #000;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.middle .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 45vw;
+    height: 520px;
+    text-decoration: none;
+}
+
+.middle .junction {
+    padding-top: 50px;
+    height: 10vh;
+}
+
+.First .Right {
+    background-color: #ffffff00;
+}
+
+.Second .Left {
+    background-color: #ffffff00;
+}
+
+.Third .Right {
+    background-color: #ffffff00;
+}
+
+.Fourth .Left {
+    background-color: #ffffff00;
+    margin-bottom: 15vh;
+}
+
+.bottom .Title {
+    width: 90%;
+    height: 5vh;
+    margin-top: 2vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.bottom .Title .title {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bottom .container {
+    margin-top: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom .Down {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bottom .sobreNos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bottom .container .dev img {
+    width: 300px;
+    height: 300px;
+}
+
+.bottom .container .dev {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;
+}
+
+.bottom .container .dev .text {
+    user-select: none;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bottom .container .dev .title {
+    width: 80%;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer img {
+    height: 12vh;
+}
+
+footer .line {
+    width: 90%;
+    height: 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: #4AB09F;
+}
+
+footer .credits .text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+footer .box {
+    margin-top: 27vh;
+    width: 85%;
+    margin-left: 4%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .credits .text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 120%;
+    padding-bottom: 3.5vh;
+}
+
+footer .credits {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container img {
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.container img:hover {
+    width: 110%;
+    height: 600px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.Left {
+    transition: 0.3s;
+}
+
+.Right {
+    transition: 0.3s;
+}
+
+
+
+.First .Left:hover {
+    height: 600px;
+    transition: 0.3s;
+}
+
+.Second .Right:hover {
+    height: 600px;
+    transition: 0.3s;
+}
+
+.Third .Left:hover {
+    height: 600px;
+    transition: 0.3s;
+}
+
+.Fourth .Right:hover {
+    height: 600px;
+    transition: 0.3s;
+}
+
+header .navList a:hover {
+    font-size: 40px;
+    color: #5981DE;
+    background: linear-gradient(180deg, #90E4FF 22.4%, #DAF6FF 82.29%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s;
+}
+
+.hero .button:hover {
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.bottom .container .dev .text:hover {
+    font-size: 30px;
+    color: #2D2D2D;
+    transition: 0.3s;
+}
+.bottom .container .dev .text:active {
+    color: #CCDBFF;
+    transition: 0.1s;
+}
